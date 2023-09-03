@@ -1,6 +1,6 @@
 package com.example.tablebooker.user.service;
 
-import com.example.tablebooker.user.dto.UserInputDTO;
+import com.example.tablebooker.user.dto.UserInputDto;
 import com.example.tablebooker.user.entity.User;
 import com.example.tablebooker.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -16,7 +16,12 @@ public class GeneralUserService implements UserService {
 
 
     @Override
-    public User register(UserInputDTO user) {
+    public User register(UserInputDto user) {
+        return null;
+    }
+
+    @Override
+    public User getUserByEmail(String email) {
         return null;
     }
 
