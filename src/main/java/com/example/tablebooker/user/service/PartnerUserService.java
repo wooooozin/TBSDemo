@@ -64,6 +64,15 @@ public class PartnerUserService implements UserService {
         return userRepository.save(userToUpdate);
     }
 
+    @Override
+    public void deleteUser(Long userId) {
+        User userToDelete = userRepository.findById(userId)
+                .orElseThrow(() -> new UserNotFoundException("사용자 정보가 없습니다."));
+
+        userRepository.delete(userToDelete);
+    }
+
+
     private User convertDtoToEntity(UserInputDto userInput) {
         return User.builder()
                 .email(userInput.getEmail())

@@ -10,4 +10,6 @@ public interface UserService {
     User getUserByEmail(String email);
 
     User updateUserEmail(Long userId, String email, String token);
+
+    void deleteUser(Long userId);
 }

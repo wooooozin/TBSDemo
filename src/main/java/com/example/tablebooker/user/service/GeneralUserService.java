@@ -30,4 +30,9 @@ public class GeneralUserService implements UserService {
         return null;
     }
 
+    @Override
+    public void deleteUser(Long userId) {
+
+    }
+
 }

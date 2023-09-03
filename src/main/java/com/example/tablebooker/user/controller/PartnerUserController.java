@@ -101,6 +101,23 @@ public class PartnerUserController {
 
     }
 
+    // 파트너 회원 삭제 api
+    @DeleteMapping("/{userId}/delete")
+    public ResponseEntity<?> deletePartnerUser(
+            @PathVariable Long userId,
+            @RequestHeader("Authorization") String token
+    ) {
+        String extractedToken = extractTokenFromHeader(token);
+        User user = validateTokenAndGetUser(extractedToken);
+
+        if (!user.getId().equals(userId)) {
+            throw new UnauthorizedAccessException("권한이 없습니다.");
+        }
+
+        partnerUserService.deleteUser(userId);
+        return ResponseEntity.noContent().build();
+    }
+
 
 
     private List<ErrorResponse> getResponseErrors(Errors errors) {
