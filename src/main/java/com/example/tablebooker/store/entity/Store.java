@@ -34,6 +34,6 @@ public class Store {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private StoreReservationStatus reservationStatus = StoreReservationStatus.AVAILABLE;
+    private StoreReservationStatus reservationStatus;
 
 }
