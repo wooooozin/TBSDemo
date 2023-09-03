@@ -2,6 +2,7 @@ package com.example.tablebooker.exception;
 
 import com.example.tablebooker.user.exception.InvalidUserRegisterException;
 import com.example.tablebooker.user.exception.PasswordNotMatchException;
+import com.example.tablebooker.user.exception.UnauthorizedAccessException;
 import com.example.tablebooker.user.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
@@ -36,6 +37,13 @@ public class GlobalExceptionHandler {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ResponseBody
     public ErrorResponse handleUserNotFoundException(UserNotFoundException e) {
+        return new ErrorResponse(e.getMessage(), HttpStatus.BAD_REQUEST.value());
+    }
+
+    @ExceptionHandler(UnauthorizedAccessException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ResponseBody
+    public ErrorResponse handleUnauthorizedAccessException(UnauthorizedAccessException e) {
         return new ErrorResponse(e.getMessage(), HttpStatus.BAD_REQUEST.value());
     }
 

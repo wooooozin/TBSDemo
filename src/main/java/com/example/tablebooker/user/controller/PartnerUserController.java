@@ -8,8 +8,11 @@ import com.example.tablebooker.user.dto.UserLoginDto;
 import com.example.tablebooker.user.dto.UserLoginToken;
 import com.example.tablebooker.user.entity.User;
 import com.example.tablebooker.user.exception.PasswordNotMatchException;
+import com.example.tablebooker.user.exception.UnauthorizedAccessException;
 import com.example.tablebooker.user.service.PartnerUserService;
+import com.example.tablebooker.utils.JWTUtils;
 import com.example.tablebooker.utils.PasswordUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +24,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Slf4j
 @RestController
 @RequestMapping("/partner")
 public class PartnerUserController {
@@ -73,17 +77,29 @@ public class PartnerUserController {
     }
 
     // 파트너 이메일 수정 api
-    @PutMapping("/{userId}/email")
-    public ResponseEntity<?> updateUserEamil(
+    @PatchMapping("/{userId}/email")
+    public ResponseEntity<?> updateUserEmail(
             @PathVariable Long userId,
-            @RequestBody UserInputDto userInputDto
+            @RequestBody UserInputDto userInputDto,
+            @RequestHeader("Authorization") String token,
+            Errors errors
     ) {
-        User updatedUser = partnerUserService.updateUserEmail(userId, userInputDto.getEmail());
+        if (errors.hasErrors()) {
+            List<ErrorResponse> responseErrors = getResponseErrors(errors);
+            return new ResponseEntity<>(responseErrors, HttpStatus.BAD_REQUEST);
+        }
+
+        String extractedToken = extractTokenFromHeader(token);
+        User user = validateTokenAndGetUser(extractedToken);
+
+        if (!user.getId().equals(userId)) {
+            throw new UnauthorizedAccessException("권한이 없습니다.");
+        }
+
+        User updatedUser = partnerUserService.updateUserEmail(userId, userInputDto.getEmail(), token);
         return ResponseEntity.ok(updatedUser);
+
     }
-
-
-    // 파트너 전화번호 수정 api
 
 
 
@@ -101,4 +117,23 @@ public class PartnerUserController {
                 .sign(Algorithm.HMAC512("booker".getBytes()));
     }
 
+    private String extractTokenFromHeader(String header) {
+        // Authorization 헤더에서 토큰을 추출하는 로직 구현 (Bearer 토큰 형식을 가정)
+        if (header.startsWith("Bearer")) {
+            return header.substring(7).trim();
+        } else {
+            throw new UnauthorizedAccessException("유효하지 않은 토큰 형식입니다.");
+        }
+    }
+
+    private User validateTokenAndGetUser(String token) {
+        String issuer = JWTUtils.getIssuer(token);
+        log.info(issuer + " 😀😀");
+
+        User user = partnerUserService.getUserByEmail(issuer);
+        if (user == null) {
+            throw new UnauthorizedAccessException("유효하지 않은 토큰입니다.");
+        }
+        return user;
+    }
 }

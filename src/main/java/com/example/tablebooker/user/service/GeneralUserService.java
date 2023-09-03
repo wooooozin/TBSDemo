@@ -26,7 +26,7 @@ public class GeneralUserService implements UserService {
     }
 
     @Override
-    public User updateUserEmail(Long userId, String email) {
+    public User updateUserEmail(Long userId, String email, String token) {
         return null;
     }
 

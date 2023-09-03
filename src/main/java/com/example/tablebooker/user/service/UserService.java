@@ -9,5 +9,5 @@ public interface UserService {
     User register(UserInputDto user);
     User getUserByEmail(String email);
 
-    User updateUserEmail(Long userId, String email);
+    User updateUserEmail(Long userId, String email, String token);
 }
