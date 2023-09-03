@@ -14,10 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.Errors;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.Date;
@@ -49,7 +46,7 @@ public class PartnerUserController {
         return new ResponseEntity<>(registeredUser, HttpStatus.CREATED);
     }
 
-    // 파트너 로그인 api 및 jwt 발급
+    // 파트너 로그인 api 및 jwt 발급 api
     @PostMapping("/login")
     public ResponseEntity<?> login(
             @RequestBody @Valid UserLoginDto userLoginDto,
@@ -75,7 +72,18 @@ public class PartnerUserController {
         );
     }
 
+    // 파트너 이메일 수정 api
+    @PutMapping("/{userId}/email")
+    public ResponseEntity<?> updateUserEamil(
+            @PathVariable Long userId,
+            @RequestBody UserInputDto userInputDto
+    ) {
+        User updatedUser = partnerUserService.updateUserEmail(userId, userInputDto.getEmail());
+        return ResponseEntity.ok(updatedUser);
+    }
 
+
+    // 파트너 전화번호 수정 api
 
 
 
