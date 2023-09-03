@@ -11,5 +11,5 @@ public class TablebookerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TablebookerApplication.class, args);
 	}
-    
+
 }
