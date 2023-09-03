@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "email": "loopy@partner.com",
+  "password": "$2a$10$ITDnRDfY//UG8xfBnyYBJeRoBiHbP8KPjyzn1IvjN0u621w6C1kCC",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER",
+  "stores": null
+}

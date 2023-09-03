@@ -26,6 +26,9 @@ public class User {
     @Column(nullable = false)
     private String password;
 
+    @Column(unique = true)
+    private String mobileNumber;
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private UserType userType;

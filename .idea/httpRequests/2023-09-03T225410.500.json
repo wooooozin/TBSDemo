@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-09-03T13:54:10.929+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/partner/register"
+}

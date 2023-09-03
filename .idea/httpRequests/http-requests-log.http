@@ -1,0 +1,846 @@
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "hyoki@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1234-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T230008.201.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "hyoki@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T230003.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225930.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225908.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225643.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 118
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy11@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225633.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225624.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 121
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "GENERAL_USER"
+}
+
+<> 2023-09-03T225608.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 121
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "GENERAL_USER"
+}
+
+<> 2023-09-03T225539.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 121
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "GENERAL_USER"
+}
+
+<> 2023-09-03T225526.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 121
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "GENERAL_USER"
+}
+
+<> 2023-09-03T225422.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225410.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225314.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T225258.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 104
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "GENERAL_USER"
+}
+
+<> 2023-09-03T225222.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "123@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "GENERAL_USER"
+}
+
+<> 2023-09-03T223209.400.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "123@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-2211-1111",
+  "userType": "GENERAL_USER"
+}
+
+<> 2023-09-03T223046.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 99
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T223000.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T222952.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T222727.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loop123y@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1112-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T222421.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loop123y@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1112-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T222258.201.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loop123y@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T222246.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loop123y@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T222232.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loop123y@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T222007.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loop123y@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T221851.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T221820.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T221714.500.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=4CAF07B1BF59E1978ADE465544CB90F7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T221459.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=94792999E224E734E878786402C17448
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=94792999E224E734E878786402C17448
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T221036.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 112
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=94792999E224E734E878786402C17448
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "1@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T220904.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=94792999E224E734E878786402C17448
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T220854.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=94792999E224E734E878786402C17448
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T220802.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=94792999E224E734E878786402C17448
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T220456.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T220114.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 111
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@dd.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T215912.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 111
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@dd.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T215704.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T215553.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 113
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "12@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T215511.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T215438.404.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=917A861E2B805C23EB4C0E8A648876CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+<> 2023-09-03T215335.201.json
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Cookie: JSESSIONID=A83423D2FFE3A5C53D0348E85BCEEEBF
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+###
+
+POST http://localhost:8080/partner/register
+Content-Type: application/json
+Content-Length: 116
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "email": "loopy@partner.com",
+  "password": "1234",
+  "mobileNumber": "010-1111-1111",
+  "userType": "PARTNER"
+}
+
+###
+
